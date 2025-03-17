@@ -13,7 +13,7 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA 
 i principali datatype sono i seguenti: String-Nunber-boolean-null-Undefined.
-String e' in pratica una parola, si mettono le virgolette.
+String e' in pratica una parola, si mettono tra le virgolette.
 Number sono dei caratteri sotto forma di numeri e si inseriscono direttamente.
 i caratteri boolani sono due true e false.
 poi ce null che sarebbe un valore uguale a zero che lo si impone dal programmatore,
