@@ -85,8 +85,10 @@ let name1 ="john";
 let name2 ="John";
 console.log(name1 === name2);
 
-let name3= name2.toLowerCase(name1);
-console.log(name3 === name1);
+let name3= name2.toLowerCase();
+let name4= name1.toLowerCase();
+
+console.log(name3 === name4);
 
 /*let lowerCaseString = name2.toLoLowerCase();
 console.log(lowerCaseString);
