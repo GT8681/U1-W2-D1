@@ -25,7 +25,8 @@ mentre undefined e lo stesso risultato ma lo definisce dal sistema usato ed equi
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+ let myName="Gianni";
+ console.log(myName);
 
 
 /* ESERCIZIO 3
@@ -33,12 +34,19 @@ mentre undefined e lo stesso risultato ma lo definisce dal sistema usato ed equi
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let N1=12;
+let N2=20;
+console.log(N1+N2);
+
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+let x=12;
+console.log(x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -47,11 +55,25 @@ mentre undefined e lo stesso risultato ma lo definisce dal sistema usato ed equi
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+myName="Toscano";
+console.log(myName);
+/*
+const Name2="gt86";
+console.log(Name2);
+ 
+Name2="gianni86";
+console.log(Name2);  D1.js:64 Uncaught TypeError: Assignment to constant variable.
+at D1.js:64:6   */
+
+
+
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log(4-x);
+
+
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -59,4 +81,15 @@ mentre undefined e lo stesso risultato ma lo definisce dal sistema usato ed equi
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let name1 ="john";
+let name2 ="John";
+console.log(name1 !== name2);
+
+let name3= name2.toLowerCase(name1);
+console.log(name3 !== name1);
+
+/*let lowerCaseString = name2.toLoLowerCase();
+console.log(lowerCaseString);
+
+ /*let myString = "HeLLo WoRLD!"
+let lowerCaseString = myString. toLowerCase(); */
