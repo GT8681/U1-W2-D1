@@ -83,12 +83,15 @@ console.log(4-x);
 
 let name1 ="john";
 let name2 ="John";
-console.log(name1 === name2);
+let addConfer=name1 === name2;
+console.log(addConfer);
 
-let name3= name2.toLowerCase();
+/*let name3= name2.toLowerCase();
 let name4= name1.toLowerCase();
 
-console.log(name3 === name4);
+console.log(name3 === name4);*/
+let risultato=name1.toLowerCase()===name2.toLowerCase();
+console.log(risultato);
 
 /*let lowerCaseString = name2.toLoLowerCase();
 console.log(lowerCaseString);
